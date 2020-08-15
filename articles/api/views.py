@@ -1,7 +1,5 @@
 from rest_framework.generics import ListAPIView, RetrieveAPIView
-
 from articles.models import Article
-
 from .serializers import ArticleSerializer
 
 class ArticleListView(ListAPIView):
